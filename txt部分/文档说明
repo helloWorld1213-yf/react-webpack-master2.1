@@ -1,0 +1,37 @@
+﻿项目开发环境配置（webpack）：
+
+    名字：react-webpack-master
+    
+    目录及说明：
+        react-webpack-master
+            -config             放置多套配置
+                dev.js          开发配置
+                prod.js         生产配置
+                test.js         测试配置
+            -node_modules
+            -public             放静态文件（不需要被打包的静态文件，比如banner图片，用户的头像...之后可能会变的东西
+            -src				具体见"src目录说明"
+            -tests	  jest测试文件，无需理会
+            .eslintrc.js        eslint文件
+            config.js           原来时config目录下的base.js，现在移到外面来就是为了那两个插件的new能在根目录下执行，否则会报错
+            package.json        项目配置文件
+            webpack.config.js   webpack配置文件
+
+
+    其他要注意的：
+    	1.不仅要在项目内部安装上面那些包
+                   还要在全局安装(-g)  webpack webpack-cli webpack-dev-server
+
+
+       
+    
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+{
+  "name": "react-webpack-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.dev",
+    "build": "webpack --env.prod",
+    "test": "jest-webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^3.20.3",
+    "autoprefixer": "^9.6.1",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "jest-webpack": "^0.5.1",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "style-loader": "^0.23.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "browserslist": [
+    ">0.5%",
+    "last 2 version",
+    "not dead"
+  ],
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "jest": {
+    "roots": [
+      "./tests/"
+    ]
+  }
+}

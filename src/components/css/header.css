@@ -1,0 +1,46 @@
+.header{
+    height: 50px;
+    background-color: gray;
+}
+.header .logo{
+    width: 20%;
+    height:100%;
+    background-color: beige;
+    float: left;
+}
+.header .menu{
+    width: 10%;
+    height:100%;
+    background-color: aqua;
+    float: left;
+}
+.header .center{
+    width: 20%;
+    height:100%;
+    background-color: yellowgreen;
+    float: right;
+}
+.header .center .expert{
+    width:40%;
+    height:100%;
+    background-color: beige;
+    float:left;
+    margin-left:2%;
+    font-size:0.5rem;
+}
+.header .center .self-center{
+    width:34%;
+    height:100%;
+    background-color: beige;
+    float:left;
+    margin-left:2%;
+    font-size:0.5rem;
+}
+.header .center .help{
+    width:20%;
+    height:100%;
+    background-color: beige;
+    float:left;
+    margin-left:2%;
+    font-size:0.5rem;
+}

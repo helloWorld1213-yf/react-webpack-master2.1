@@ -1,0 +1,11 @@
+.sider{
+    height:100%;
+    width:20%;
+    background-color: grey;
+    float:left;
+}
+
+.color{
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,16 @@
+components      放除主组件App.js之外的其他组件
+    -css            放所有css文件
+        content.css
+        header.css
+        sider.css
+    -content        内容区
+    -header         头部区
+    -sider          左侧导航区
+
+two             两个人公共区
+    Actions.js
+    Routes.js
+    Store.js
+
+App.js          主组件
+index.js        挂载文件
