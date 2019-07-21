@@ -2,7 +2,7 @@ import React, { Component,Fragment } from "react";
 import { Input,Button  } from 'antd';
 import '../../css/WorkoverData/WorkoverData.css'
 import {connect} from "react-redux";
-import store from '../../Actions/store'
+import store from '../../Actions/store';
 
 class WorkoverData extends Component {
     constructor(props) {
