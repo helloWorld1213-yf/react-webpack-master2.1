@@ -1,0 +1,29 @@
+assets
+    -css        css文件夹，里面还有子文件夹，每一个子文件夹对应一个pages当中的页面
+    -images     放图片
+
+-components     暂时不放东西，组件一般是放在pages当中，即一个页面对应一个大组件，小组件放在sub当中，具体见pages目录
+
+-layout         只放header和sider，未放content，因为考虑到header和sider是不会再变化的。而变化都在content当中，content都在pages当中。
+    -header
+    -sider
+
+-pages          放各个页面，除了homepage主页面之外，其他的都是：一个二级菜单对应一个文件夹
+                里面都有一个Main.js文件（具体不是这个名字），用于统筹这个页面的分组件；sub目录就是放分组件的位置
+    -home-page          首页
+    -create-well        创建油气井页面
+    -workover-rig       修井机页面
+    -blowout-prevent    防喷器页面
+
+-store          我目前还未用到redux，所以只是在里面写了一些示范代码，没有实际意义。
+    index.js    combine所有Reducers
+    msg.js      msg这个Reducer
+    user.js     user这个Reducer
+
+actions.js      放所有的变量和函数声明，也只是写了示范代码，没有实际意义。
+
+App.js
+
+index.js
+
+
